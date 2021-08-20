@@ -1,0 +1,24 @@
+apply plugin: 'maven-publish'
+
+group 'me.lwb.context'
+version '1.0.0'
+afterEvaluate {
+
+    publishing {
+        publications {
+            library(MavenPublication) {
+                from components.release
+                artifactId 'content-provider'
+            }
+        }
+        repositories {
+            mavenLocal()
+            maven {
+                name = 'PublicLib'
+                url = "file://H:/PublicLib"
+            }
+        }
+    }
+
+
+}
