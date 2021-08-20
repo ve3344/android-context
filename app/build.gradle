@@ -33,6 +33,8 @@ android {
 
 dependencies {
     api 'me.lwb.context:api:1.1.0'
+    api 'me.lwb.context:androidstartup:1.1.0'
+
 //    api 'me.lwb.context:appstartup:1.1.0'
 //    api 'me.lwb.context:content-provider:1.1.0'
 
