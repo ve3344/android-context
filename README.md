@@ -15,7 +15,7 @@ add repository
 
 ```groovy
 repositories {
-    maven { url "https://gitee.com/ve3344/repo/raw/master/" }
+    maven { url 'https://jitpack.io' }
 }
 ```
 
