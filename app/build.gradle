@@ -32,9 +32,10 @@ android {
 }
 
 dependencies {
-    api 'me.lwb.context:api:1.1.0'
-    api 'me.lwb.context:androidstartup:1.1.0'
-
+//    api 'me.lwb.context:api:+'
+//    api 'me.lwb.context:androidstartup:1.1.0'
+//    implementation 'com.github.ve3344.android-context:context-api:v1.1.0-test2'
+    implementation 'com.github.ve3344.android-context:context-androidstartup:v1.1.0-test2'
 //    api 'me.lwb.context:appstartup:1.1.0'
 //    api 'me.lwb.context:content-provider:1.1.0'
 
