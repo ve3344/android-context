@@ -22,25 +22,25 @@ repositories {
 #### 使用自定义初始化或作为库使用时
 
 ```groovy
-api 'me.lwb.context:api:<latest-version>'
+implementation 'me.lwb.context:api:<latest-version>'
 ```
 
 #### 使用 content-provider 自动初始化
 
 ```groovy
-api 'me.lwb.context:content-provider:<latest-version>'
+implementation 'me.lwb.context:content-provider:<latest-version>'
 ```
 
 #### 使用 androidstartup 自动初始化（如果已经使用androidstartup库）
 
 ```groovy
-api 'me.lwb.context:androidstartup:<latest-version>'
+implementation 'me.lwb.context:androidstartup:<latest-version>'
 ```
 
 #### 使用 appstartup 自动初始化（如果已经使用appstartup库）
 
 ```groovy
-api 'me.lwb.context:appstartup:<latest-version>'
+implementation 'me.lwb.context:appstartup:<latest-version>'
 ```
 
 # 使用

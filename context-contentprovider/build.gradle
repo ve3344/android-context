@@ -34,7 +34,7 @@ android {
 }
 
 dependencies {
-    api 'me.lwb.context:api:1.1.0'
+    api project(":context-api")
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'

@@ -4,7 +4,7 @@ buildscript {
         google()
         mavenCentral()
         maven {url 'https://jitpack.io'}
-        maven { url "https://gitee.com/ve3344/repo/raw/master/" }
+
     }
     dependencies {
         classpath "com.android.tools.build:gradle:4.1.3"
