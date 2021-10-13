@@ -1,6 +1,6 @@
 apply plugin: 'maven-publish'
 
-group 'me.lwb.context'
+group 'com.github.ve3344'
 version '1.1.0'
 afterEvaluate {
 
@@ -8,7 +8,7 @@ afterEvaluate {
         publications {
             library(MavenPublication) {
                 from components.release
-                artifactId 'appstartup'
+                artifactId 'context-appstartup'
             }
         }
         repositories {

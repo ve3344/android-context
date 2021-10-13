@@ -3,6 +3,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven {url 'https://jitpack.io'}
         maven { url "https://gitee.com/ve3344/repo/raw/master/" }
 
         jcenter() // Warning: this repository is going to shut down soon
@@ -11,6 +12,6 @@ dependencyResolutionManagement {
 rootProject.name = "AndroidContext"
 include ':app'
 include ':context-api'
-include ':context-cp'
+include ':context-contentprovider'
 include ':context-appstartup'
 include ':context-androidstartup'
