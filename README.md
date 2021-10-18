@@ -22,25 +22,25 @@ repositories {
 #### 使用自定义初始化或作为库使用时
 
 ```groovy
-implementation 'com.github.ve3344.android-context:context-api:<latest-version>'
+implementation 'com.github.ve3344.android-context:context-api:1.5.0'
 ```
 
 #### 使用 content-provider 自动初始化
 
 ```groovy
-implementation 'com.github.ve3344.android-context:context-contentprovider:<latest-version>'
+implementation 'com.github.ve3344.android-context:context-contentprovider:1.5.0'
 ```
 
 #### 使用 androidstartup 自动初始化（如果已经使用androidstartup库）
 
 ```groovy
-implementation 'com.github.ve3344.android-context:context-androidstartup:<latest-version>'
+implementation 'com.github.ve3344.android-context:context-androidstartup:1.5.0'
 ```
 
 #### 使用 appstartup 自动初始化（如果已经使用appstartup库）
 
 ```groovy
-implementation 'com.github.ve3344.android-context:context-appstartup:<latest-version>'
+implementation 'com.github.ve3344.android-context:context-appstartup:1.5.0'
 ```
 
 # 使用
